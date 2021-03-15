@@ -1,0 +1,50 @@
+
+
+body {background-image: url("../img/background_violet.jpg");
+       background-repeat: round;
+
+  }
+
+ h1 { text-align: center;
+ 	  font-family: "courier new";
+ 	  color: #fff
+      font-size: 45px;
+      text-transform: uppercase;
+      border-style: solid;
+      border-color: blue;
+  }
+
+ h2 { text-align: center;
+ 	  font-family: "courier new";
+ 	  font-size: 30px;
+ 	  text-transform: uppercase;
+ 	  color: #fff;
+ 	  border-style: solid;
+ 	  border-color: #0047b3;
+
+  }
+
+  figure {text-align: center; 
+
+  }
+
+  img { width: 60%
+
+  }
+
+  p {font-size: 25px;
+  	 font-family: "arial";
+  	 text-align: justify;
+
+  }
+
+  ul li {font-size: 25px;
+  	 font-family: "arial";
+  	 text-align: justify;
+
+   }
+
+   a { color: blue;
+       text-decoration: underline;
+
+   }
