@@ -7,11 +7,11 @@ body {background-image: url("../img/background_violet.jpg");
 
  h1 { text-align: center;
  	  font-family: "courier new";
- 	  color: #fff
+ 	  color: #fff;
       font-size: 45px;
       text-transform: uppercase;
       border-style: solid;
-      border-color: blue;
+      border-color: #191970;
   }
 
  h2 { text-align: center;
@@ -20,7 +20,7 @@ body {background-image: url("../img/background_violet.jpg");
  	  text-transform: uppercase;
  	  color: #fff;
  	  border-style: solid;
- 	  border-color: #0047b3;
+ 	  border-color: #191970;
 
   }
 
@@ -34,17 +34,38 @@ body {background-image: url("../img/background_violet.jpg");
 
   p {font-size: 25px;
   	 font-family: "arial";
+     color: #fff;
   	 text-align: justify;
 
   }
 
-  ul li {font-size: 25px;
+  ul li, ol li {font-size: 25px;
   	 font-family: "arial";
   	 text-align: justify;
+     color: #fff;
 
    }
 
-   a { color: blue;
+   a { color: #ADD8E6;
        text-decoration: underline;
+       font-size: 30px;
 
    }
+
+   table { color: #fff;
+           font-family: "courier new";
+           width: 1200px;
+           font-size: 25px;
+           border-collapse: collapse;
+    
+   }
+
+   th, td { text-align: center;
+            border: solid;
+            border-color:#191970;
+
+
+
+  }
+  
+
