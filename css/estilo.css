@@ -1,26 +1,37 @@
 
 
-body {background-image: url("../img/background_violet.jpg");
+body {background-image: url("../img/background-branco.jpg");
        background-repeat: round;
+       font-family: courier new;
 
   }
 
+  .container { width: 80%
+              margin-left: auto;
+              margin-right: auto;
+  }
+
+ header, footer { background-color: rgba(100,149,237, 0.5);
+                  padding: 2%;
+
+ }
+
  h1 { text-align: center;
- 	  font-family: "courier new";
- 	  color: #fff;
-      font-size: 45px;
+      font-size: 50px;
       text-transform: uppercase;
       border-style: solid;
       border-color: #191970;
+      margin-top: 2%;
+      margin-bottom:2%;
   }
 
  h2 { text-align: center;
- 	  font-family: "courier new";
- 	  font-size: 30px;
+ 	  font-size: 40px;
  	  text-transform: uppercase;
- 	  color: #fff;
  	  border-style: solid;
  	  border-color: #191970;
+    margin-top: 2%;
+    margin-bottom:2%;
 
   }
 
@@ -28,35 +39,40 @@ body {background-image: url("../img/background_violet.jpg");
 
   }
 
-  img { width: 75%
+  img { width: 70%
 
   }
 
-  p {font-size: 25px;
+  p {font-size: 35px;
   	 font-family: "arial";
-     color: #fff;
   	 text-align: justify;
+     margin-top: 2%;
+    margin-bottom:2%;
 
   }
+
+  .centro {text-align: center;
+           color: #191970;
+
+}
 
   ul li, ol li {font-size: 25px;
   	 font-family: "arial";
   	 text-align: justify;
-     color: #fff;
+     margin-top: 2%;
+     margin-bottom:2%;
 
    }
 
-   a { color: #ADD8E6;
+   a { color: #191970;
        text-decoration: underline;
        font-size: 30px;
 
    }
 
-   table { color: #fff;
-           font-family: "courier new";
+   table { font-family: "courier new";
            width: 750px;
            font-size: 25px;
-           border-collapse: collapse;
     
    }
 
