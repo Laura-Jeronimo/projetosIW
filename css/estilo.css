@@ -6,7 +6,7 @@ body {background-image: url("../img/background-branco.jpg");
 
   }
 
-  .container { width: 80%
+  .container { width: 80%;
               margin-left: auto;
               margin-right: auto;
   }
@@ -56,7 +56,7 @@ body {background-image: url("../img/background-branco.jpg");
 
 }
 
-  ul li, ol li {font-size: 25px;
+  ul li, ol li {font-size: 35px;
   	 font-family: "arial";
   	 text-align: justify;
      margin-top: 2%;
@@ -71,8 +71,8 @@ body {background-image: url("../img/background-branco.jpg");
    }
 
    table { font-family: "courier new";
-           width: 750px;
-           font-size: 25px;
+           width: 1000px;
+           font-size: 35px;
     
    }
 
