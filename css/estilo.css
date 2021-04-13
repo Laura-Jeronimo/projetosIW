@@ -1,87 +1,62 @@
-
-
-body {background-image: url("../img/background-branco.jpg");
-       background-repeat: round;
-       font-family: courier new;
-
-  }
-
-  .container { width: 80%;
-              margin-left: auto;
-              margin-right: auto;
-  }
-
- header, footer { background-color: rgba(100,149,237, 0.5);
-                  padding: 2%;
-
- }
-
- h1 { text-align: center;
-      font-size: 50px;
-      text-transform: uppercase;
-      border-style: solid;
-      border-color: #191970;
-      margin-top: 2%;
-      margin-bottom:2%;
-  }
-
- h2 { text-align: center;
- 	  font-size: 40px;
- 	  text-transform: uppercase;
- 	  border-style: solid;
- 	  border-color: #191970;
-    margin-top: 2%;
-    margin-bottom:2%;
-
-  }
-
-  figure {text-align: center; 
-
-  }
-
-  img { width: 70%
-
-  }
-
-  p {font-size: 35px;
-  	 font-family: "arial";
-  	 text-align: justify;
-     margin-top: 2%;
-    margin-bottom:2%;
-
-  }
-
-  .centro {text-align: center;
-           color: #191970;
+body {background-image: url(../img/background.jpg);
+	  background-repeat: round;
+	  font-family: courier new;
+	  color:#fff;
 
 }
 
-  ul li, ol li {font-size: 35px;
-  	 font-family: "arial";
-  	 text-align: justify;
-     margin-top: 2%;
-     margin-bottom:2%;
+.container {width: 80%;
+	        margin-left: auto;
+	        margin-right: auto;
+}
 
-   }
+header, footer {background-color: rgba(169,169,169, 0.5);
+	            padding: 2%;
 
-   a { color: #191970;
-       text-decoration: underline;
-       font-size: 30px;
+}
 
-   }
+h1, h2 {text-align: center;
+	    text-transform: uppercase;
+	    border-style: solid;
+	    border-color: #B0C4DE;
+	    margin-top: 2%;
+	    margin-bottom: 2%;
+	    font-size: 30px;
 
-   table { font-family: "courier new";
-           width: 1000px;
-           font-size: 35px;
-    
-   }
+}
 
-   th, td { text-align: center;
-            border: solid;
-            border-color:#191970;
+figure {text-align: center;
 
+}
 
+img {width: 85%;
 
-  }
-  
+}
+
+p, ul li, ol li {font-family: arial;
+                 text-align: justify;
+                 margin-top: 2%;
+                 margin-bottom: 2%;
+                 font-size: 20px;
+
+}
+
+.centro {text-align: center;
+
+}
+
+a {color: #B0C4DE;
+   text-decoration: underline;
+
+}
+
+table {border-collapse: collapse;
+ 
+}
+
+th, td {text-align: center;
+	    border: groove;
+	    border-color: #B0C4DE;
+	    font-size: 20px;
+}
 
