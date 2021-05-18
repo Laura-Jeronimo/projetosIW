@@ -1,62 +1,117 @@
-body {background-image: url(../img/background.jpg);
-	  background-repeat: round;
-	  font-family: courier new;
-	  color:#fff;
+  body {background-image: url(../img/background.jpg);
+        background-repeat: round;
+        color:#fff;
+        
+}
+
+    .container {width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 45%;
+}
+
+  header, footer {background-color:  rgba(40, 116, 166, 0.7);
+                  position: relative;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  font-size: 1.5em;
+                  line-height: 1.5;
+  }
+
+  h1, h2 {text-align: center;
+          text-transform: uppercase;
+          color:#75a8eb;
+          border-style: dotted;
+          border-color: #B0C4DE;
+          margin-top: 2%;
+          margin-bottom: 2%;
+          font-size: 30px;
+          font-weight: bold;
+}
+
+  figure {text-align: center;
 
 }
 
-.container {width: 80%;
-	        margin-left: auto;
-	        margin-right: auto;
-}
-
-header, footer {background-color: rgba(169,169,169, 0.5);
-	            padding: 2%;
+  img {width: 70%;
 
 }
 
-h1, h2 {text-align: center;
-	    text-transform: uppercase;
-	    border-style: solid;
-	    border-color: #B0C4DE;
-	    margin-top: 2%;
-	    margin-bottom: 2%;
-	    font-size: 30px;
+   .imglogo {width: 20%;
 
 }
 
-figure {text-align: center;
+  p, ul li, ol li {font-family: arial;
+                   text-align: justify;
+                   margin-top: 2%;
+                   margin-bottom: 2%;
+                   font-size: 20px;
 
 }
 
-img {width: 85%;
+    .centro {text-align: center;
+}
+
+  a {color: #B0C4DE;
+     text-decoration: underline;
+}
+
+  table {border-collapse: collapse;
+}
+
+  th, td {text-align: center;
+          border: groove;
+          border-color: #B0C4DE;
+          font-size: 20px;
+}
+
+.button { background-color: #B0C4DE;
+          border: none;
+          color: black;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
 
 }
 
-p, ul li, ol li {font-family: arial;
-                 text-align: justify;
-                 margin-top: 2%;
-                 margin-bottom: 2%;
-                 font-size: 20px;
+.fixo { position:fixed;
+          top:0%;
+          right: 0%;
+          left: 0%;
+          z-index: 1000px;
+
+  }
+
+.ajustes { text-align: center;
 
 }
 
-.centro {text-align: center;
+ .ajustes :hover {background-color: black;
 
+ }
+
+@media screen and (min-width: 600px) {
+  .container {
+    margin-top: 20%;
+} 
+
+  header { position: relative;
+           flex-direction: row;
+           background-color: rgba(117, 168, 235, 0.2);
 }
 
-a {color: #B0C4DE;
-   text-decoration: underline;
+  .menuopcoes { position: absolute;
+                right:5%;
+                top: 40%;
+  }
 
-}
+  .menuopcoes ul li { display: inline;
+                      margin-left: 15px;
 
-table {border-collapse: collapse;
- 
-}
-
-th, td {text-align: center;
-	    border: groove;
-	    border-color: #B0C4DE;
-	    font-size: 20px;
-}
-
+  }
+} 
