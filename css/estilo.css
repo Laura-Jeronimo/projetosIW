@@ -115,3 +115,18 @@
 
   }
 } 
+
+.ajustecontato, .submit { font-size: 25px;
+                 margin-bottom: 1.5%;
+                 margin-top: 3%;
+
+}
+
+.floattest { width:200px;
+  height:200px;
+  margin-right: 15px;
+  margin-left: 15px;
+  float: right;
+}
+
+
