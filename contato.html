@@ -14,9 +14,10 @@
 		<nav class="menuopcoes">
 			<ul class="ajustes">
 				<li><a href="index.html">Inicio</a></li>
-				<li><a href="#HTML">HTML</a></li>
-				<li><a href="#CSS">CSS</a></li>
+				<li><a href="index.html#HTML">HTML</a></li>
+				<li><a href="index.html#CSS">CSS</a></li>
 				<li><a href="javascript.html">JavaScript</a></li>
+                <li><a href="index.html#galeria">Galeria</a></li>
 				<li><a href="contato.html">Contato</a></li>
 			</ul>	
 		</nav>
@@ -25,20 +26,21 @@
         <div class="container">
             <h1>Formulário de contato</h1>
                 <p class="centro">Para entrar em contato conosco, preencha o formulário abaixo</p>
-            <form class="ajustecontato">
-                <div class="name">
-                    <label>Nome:</label>
-                    <input type="text">
+            <div class="formatcontato">
+            <form>
+                <div class="ajustecontato">
+                    <label class="titles">Nome:</label>
+                    <input type="text" style="width: 50%;border-radius: 5px;height: 5%;">
                 </div>
                 <div class="ajustecontato">
-                    <p>Sexo:</p><br>
+                    <label class="titles">Sexo:</label><br>
                     <input type="radio" id="male" name="gender" value="male">
                     <label for="male">Masculino</label><br>
                     <input type="radio" id="female" name="gender" value="female">
                     <label for="female">Feminino</label><br>
                 </div>
                 <div class="ajustecontato">
-                    <p>Você tem algum conhecimento sobre HTML, CSS ou JavaScript?</p><br>
+                    <label class="titles">Você tem algum conhecimento sobre HTML, CSS ou JavaScript?</label><br>
                     <input type="radio">
                     <label>Sim, tenho conhecimento sobre uma ou mais linguagens</label><br>
                     <input type="radio">
@@ -47,7 +49,7 @@
                     <label>Não, não conheço nada sobre nenhum dos três</label><br>
                 </div>
                 <div class="ajustecontato">
-                    <p>Caso tenha marcado que possui conhecimento em alguma das linguagens, qual(is) seria?</p>
+                    <label style="color:#191970;">Caso tenha marcado que possui conhecimento em alguma das linguagens, qual(is) seria?</label><br>
                     <input type="checkbox">
                     <label>HTML</label><br>
                     <input type="checkbox">
@@ -56,7 +58,7 @@
                     <label>JavaScript</label><br>
                 </div>
                 <div class="ajustecontato">
-                <label>Escolaridade</label>
+                <label class="titles">Escolaridade:</label>
                 <select>
                     <option>Fundamental</option>
                     <option>Ensino Médio</option>
@@ -65,13 +67,14 @@
                 </select>
                 </div>
                 <div class="ajustecontato">
-                    <label>Assunto:</label>
-                    <input type="textarea" style="width: 200px;height: 100;">
+                    <p class="titles">Assunto:</p>
+                    <input type="textarea" style="width: 250px;height: 150;border-radius: 5px;">
                 </div>
                 <div class="submit">
                     <input type="submit" value="Enviar">
                 </div>
             </form>
+            </div>
         </div>
     </body>
 </html>
